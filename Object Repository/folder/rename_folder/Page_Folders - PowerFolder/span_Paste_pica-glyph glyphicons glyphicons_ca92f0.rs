@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Paste_pica-glyph glyphicons glyphicons_ca92f0</name>
+   <tag></tag>
+   <elementGuidId>09649ed7-36c2-4987-8b36-877e5b2cc2ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pica-files-create-dropdown']/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.pica-glyph.glyphicons.glyphicons-plus-sign</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>44035a16-b0b5-435a-9d8c-5fd422b5151b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pica-glyph glyphicons glyphicons-plus-sign</value>
+      <webElementGuid>4629b9a4-f323-48f5-99f3-86e22b1f8b17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pica-files-create-dropdown&quot;)/a[@class=&quot;dropdown-toggle&quot;]/span[@class=&quot;pica-glyph glyphicons glyphicons-plus-sign&quot;]</value>
+      <webElementGuid>1357df24-21df-4379-9a1a-842f847309c6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pica-files-create-dropdown']/a/span</value>
+      <webElementGuid>47534e23-3591-4595-a922-39156d0c5b17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//thead[3]/tr/th/div/a/span</value>
+      <webElementGuid>f24db766-e6f0-4551-a941-1dc4cfc74977</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

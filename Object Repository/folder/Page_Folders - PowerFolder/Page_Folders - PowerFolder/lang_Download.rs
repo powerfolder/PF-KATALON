@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lang_Download</name>
+   <tag></tag>
+   <elementGuidId>fb31c888-95ff-42f8-8db5-1ea95596de42</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.pica-table-selection-multi.files-ui-download > lang[name=&quot;action_download&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//lang[@name='action_download'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>lang</value>
+      <webElementGuid>a105403d-3c5f-485b-8bad-08a11bbc9ff1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>action_download</value>
+      <webElementGuid>d26af07a-52bf-4e96-abb3-7b55f4d2e566</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Download</value>
+      <webElementGuid>2f6298ab-5485-4368-a441-be19962d6546</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;files_select_header&quot;)/tr[1]/th[@class=&quot;text-right&quot;]/div[@class=&quot;pica-table-selection-context pica-inline hidden-xs text-right&quot;]/a[@class=&quot;pica-table-selection-multi files-ui-download&quot;]/lang[1]</value>
+      <webElementGuid>f4e17040-555c-45b9-adbf-0ab26cc84353</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//lang[@name='action_download'])[2]</value>
+      <webElementGuid>3ae8948a-db47-40b2-93e8-6aef6dfde9b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//thead[@id='files_select_header']/tr/th[3]/div[2]/a/lang</value>
+      <webElementGuid>4cee8725-dbdb-4cc9-8c5c-1c4b1bc3df58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage'])[1]/following::lang[1]</value>
+      <webElementGuid>364d0127-f552-407e-bf47-076c72b9db9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave'])[1]/following::lang[2]</value>
+      <webElementGuid>8c4214a4-1ab5-4849-9b60-11b17c5e76f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rename'])[2]/preceding::lang[1]</value>
+      <webElementGuid>5f420d74-2bdf-4cf1-a6e6-31871ba083d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy'])[2]/preceding::lang[2]</value>
+      <webElementGuid>218af6a7-aaef-4e06-a9f6-7cbe40e7f1ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[3]/div[2]/a/lang</value>
+      <webElementGuid>687e60ff-a081-49d4-ae40-3691b771a4a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//lang[@name = 'action_download' and (text() = 'Download' or . = 'Download')]</value>
+      <webElementGuid>7ada9fc2-a743-47dd-a1e8-92e94ef0df5a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

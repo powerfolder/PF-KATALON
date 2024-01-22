@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lang_Rename</name>
+   <tag></tag>
+   <elementGuidId>f26bddfd-01d2-4f99-b632-0d6b535b62c3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//lang[@name='action_rename'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.pica-table-selection-single.files-ui-rename > lang[name=&quot;action_rename&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>lang</value>
+      <webElementGuid>af9ed03e-659e-438c-8127-cefd2cc25d6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>action_rename</value>
+      <webElementGuid>f86d7391-665c-463a-8efc-6ab0e44ab089</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Rename</value>
+      <webElementGuid>acb6183b-5307-49b6-8661-6f429ee20064</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;files_select_header&quot;)/tr[1]/th[@class=&quot;text-right&quot;]/div[@class=&quot;pica-table-selection-context pica-inline hidden-xs text-right&quot;]/a[@class=&quot;pica-table-selection-single files-ui-rename&quot;]/lang[1]</value>
+      <webElementGuid>8e0c22c5-55b4-4de2-b2f6-1d2ccbc334fc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//lang[@name='action_rename'])[2]</value>
+      <webElementGuid>85367a5c-f53c-43c1-8a6e-ae234efda4e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//thead[@id='files_select_header']/tr/th[3]/div[2]/a[2]/lang</value>
+      <webElementGuid>801f3b36-c34c-4034-b0ab-d3e62bcc39d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download'])[2]/following::lang[1]</value>
+      <webElementGuid>01585b65-8842-44e3-a37a-620e40cf62a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage'])[1]/following::lang[2]</value>
+      <webElementGuid>a2887ca9-0fb0-45db-b2e7-1c3bf7301ce0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy'])[2]/preceding::lang[1]</value>
+      <webElementGuid>546a2a52-7f2d-4404-a6ac-5bda3336e811</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cut'])[2]/preceding::lang[2]</value>
+      <webElementGuid>971ab559-a79d-4f2d-a573-5926fe9783a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]/lang</value>
+      <webElementGuid>f6b45f57-c498-4948-a10a-c86001d666ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//lang[@name = 'action_rename' and (text() = 'Rename' or . = 'Rename')]</value>
+      <webElementGuid>0bc78106-9532-4b29-a9d7-fe467465ecd1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

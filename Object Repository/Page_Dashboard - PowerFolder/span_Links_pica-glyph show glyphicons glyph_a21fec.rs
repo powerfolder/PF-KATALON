@@ -6,12 +6,12 @@
    <elementGuidId>289c0f1d-c2b2-429c-9c7b-4bb80a1a3498</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.pica-glyph.show.glyphicons.glyphicons-user</value>
+         <key>XPATH</key>
+         <value>//tr[@id='Object_1059091715']/td/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='pica_menu']/table/tbody/tr[5]/td/a/span</value>
+         <key>CSS</key>
+         <value>#Object_1059091715 > td.pica-icon-column > span.glyphicons.glyphicons-folder-open.pica-glyph</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,27 +22,63 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>ec7aaa6a-a5e5-438e-ad7a-f27dd3b5c89b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>pica-glyph show glyphicons glyphicons-user</value>
+      <value>glyphicons glyphicons-folder-open pica-glyph</value>
+      <webElementGuid>89155f21-64a4-4d3a-b5f8-0fd1e2033d8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pica_menu&quot;)/table[1]/tbody[1]/tr[5]/td[@class=&quot;text-center&quot;]/a[1]/span[@class=&quot;pica-glyph show glyphicons glyphicons-user&quot;]</value>
+      <value>id(&quot;Object_1059091715&quot;)/td[@class=&quot;pica-icon-column&quot;]/span[@class=&quot;glyphicons glyphicons-folder-open pica-glyph&quot;]</value>
+      <webElementGuid>201a97e4-d1ec-4c27-9cd0-a4455d493be1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
+      <value>//tr[@id='Object_1059091715']/td/span</value>
+      <webElementGuid>8eb9b186-f4c5-4a5b-afd4-70504423ba04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td/span</value>
+      <webElementGuid>8bdf4bfd-3c26-47d7-b1f4-74822de9d1a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pica_menu']/table/tbody/tr[2]/td/a/span</value>
+      <webElementGuid>6df07e20-8b99-4399-99c1-5102f7bec6f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td/a/span</value>
+      <webElementGuid>172e3582-e5a6-4836-b189-bd974d644472</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//div[@id='pica_menu']/table/tbody/tr[5]/td/a/span</value>
+      <webElementGuid>04dbc0e8-af0a-4eca-81df-09d57e1b68a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,5 +86,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[5]/td/a/span</value>
+      <webElementGuid>695d9601-54d3-4557-aca8-d972f9f80cb2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>6ee8954d-e7e9-43ca-b232-c025ff85dd47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>8f5f8a5e-d09a-44bf-99ca-e0d3a87dcf7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
+      <webElementGuid>12246ee2-b545-4ff9-8ed6-2c3cd05c98bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>data-dismiss</name>
       <type>Main</type>
       <value>modal</value>
+      <webElementGuid>e17db39f-d3f6-4ecb-8880-690b1c599d60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -52,6 +56,7 @@
       <value>
                             Ok
                         </value>
+      <webElementGuid>9cbf01b5-8da5-4d34-87ac-6109b0535f7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,6 +64,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pica_input_dialog&quot;)/div[@class=&quot;pica-dialog-small modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-6&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
+      <webElementGuid>4d7466d8-0013-47b8-afd9-ad9ced82fc49</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,6 +72,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[19]</value>
+      <webElementGuid>b8e74af1-edba-4f9d-9413-0de8317c1a57</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,20 +80,23 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='pica_input_dialog']/div/div/div[3]/div/div[2]/button</value>
+      <webElementGuid>eab5e2bb-4e52-44de-958b-66c2d11a8e14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create a new Document'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter a new Name'])[1]/following::button[1]</value>
+      <webElementGuid>d07c5a14-c852-43d7-bfed-4eaa91d06ba9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change'])[1]/following::button[1]</value>
+      <webElementGuid>a41ec645-ef57-4b6a-a466-5479ba443dd7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[3]/preceding::button[1]</value>
+      <webElementGuid>d514e636-e7dc-42fd-8efa-b1aa80fba8ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +112,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div/div/div[3]/div/div[2]/button</value>
+      <webElementGuid>6c5e790e-396e-4648-9251-9ef93dcf39af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,5 +124,22 @@
                         ' or . = '
                             Ok
                         ')]</value>
+      <webElementGuid>39ac8bba-a334-40e8-af61-0c54c6756ccb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create a new Document'])[1]/following::button[1]</value>
+      <webElementGuid>d9afd3bd-2d3b-47d9-9340-b43fec138db3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/following::button[1]</value>
+      <webElementGuid>463100f3-13a9-479f-b7ea-72fd56fc2391</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

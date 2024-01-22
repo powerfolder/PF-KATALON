@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>lang</value>
+      <webElementGuid>a0809a22-10c3-4793-b8d7-d3db9d1de8bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>name</name>
       <type>Main</type>
       <value>button_ok</value>
+      <webElementGuid>3713a844-4723-47df-9f43-ad7d4d0fee75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Ok</value>
+      <webElementGuid>a65fc2f1-b419-491c-8f66-85493605513b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pica_input_dialog&quot;)/div[@class=&quot;pica-dialog-small modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-6&quot;]/button[@class=&quot;btn btn-primary&quot;]/lang[1]</value>
+      <webElementGuid>9183d967-8887-47a7-9071-eb229ee5314f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//lang[@name='button_ok'])[2]</value>
+      <webElementGuid>c5991e71-26f1-411c-b56a-2bc2d267ed18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,20 +62,23 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='pica_input_dialog']/div/div/div[3]/div/div[2]/button/lang</value>
+      <webElementGuid>ad9b0470-c50b-4404-9a3f-409de2dcc364</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create a new Folder'])[1]/following::lang[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter a new Name'])[1]/following::lang[1]</value>
+      <webElementGuid>08a81368-5050-4b54-86b8-44e59a857152</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/following::lang[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change'])[1]/following::lang[1]</value>
+      <webElementGuid>0a41f543-afe0-4531-8673-e973636d24a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[3]/preceding::lang[1]</value>
+      <webElementGuid>06ee4a3f-fddb-43e7-a752-4eb1bed116a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[8]/preceding::lang[2]</value>
+      <webElementGuid>07dbcc54-0596-4d82-9cd9-5793ee1aaf0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div/div/div[3]/div/div[2]/button/lang</value>
+      <webElementGuid>8015f036-138b-4b74-b7ac-064f1746e525</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +110,22 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//lang[@name = 'button_ok' and (text() = 'Ok' or . = 'Ok')]</value>
+      <webElementGuid>56a2ef60-6fcd-4006-a37b-400ed865c914</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create a new Folder'])[1]/following::lang[1]</value>
+      <webElementGuid>dfdf641e-d8d8-4dbb-a94c-f2a50e1c5a4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/following::lang[1]</value>
+      <webElementGuid>1ad5f339-cc73-4b14-a819-2f08e53ea434</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

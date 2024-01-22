@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>createdFolder</name>
+   <tag></tag>
+   <elementGuidId>99396685-528a-4fa7-a42c-952de099eed7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table/tbody/tr[${GlobalVariable.rowNum}]/td[1]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//table/tbody/tr[${GlobalVariable.rowNum}]/td[1]/span</value>
+      <webElementGuid>6ef39f37-2f9a-41d6-8936-235cefc75b8b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>copy_icon</name>
+   <tag></tag>
+   <elementGuidId>2ca66b15-39c7-4910-90c8-f50dfe3b9821</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.glyphicons.glyphicons-copy</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pica_settings_dialog']/div/div/div[2]/div[3]/span[2]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>4ae092e0-6008-4f65-bf12-2dab1169216b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>glyphicons glyphicons-copy</value>
+      <webElementGuid>6c176b25-8a81-4031-ae30-b3625cb753f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pica_settings_dialog&quot;)/div[@class=&quot;pica-dialog-small modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;form-group input-group&quot;]/span[@class=&quot;pica-input-copy input-group-addon&quot;]/i[@class=&quot;glyphicons glyphicons-copy&quot;]</value>
+      <webElementGuid>5c89cd7d-501a-4dac-8823-115e2b26c6fd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pica_settings_dialog']/div/div/div[2]/div[3]/span[2]/i</value>
+      <webElementGuid>e4ed9284-6b0f-4aef-b4b9-b5c6cbe2f7d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/span[2]/i</value>
+      <webElementGuid>c9f0f73b-c362-4106-9c2d-fa583dc862ee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

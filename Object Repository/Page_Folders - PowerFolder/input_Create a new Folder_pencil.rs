@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//input[@id='pica_input_text']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#pica_input_text</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -18,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>932bfc9f-2b89-40ff-bcb8-a54dd789871c</webElementGuid>
+      <webElementGuid>e8cc32d6-769f-4622-b922-36adb5a16636</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>pica_input_text</value>
-      <webElementGuid>6e7ebea2-8e74-433d-95bd-443f41515c5c</webElementGuid>
+      <webElementGuid>2a0f59f0-5c34-48e5-8501-5399bd3f18f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>a351811a-555e-4011-ac73-059aaec15502</webElementGuid>
+      <webElementGuid>efb50e7c-b51d-4701-9b80-e87da29179a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>pencil</value>
-      <webElementGuid>c956ebec-f7a6-4ac3-8fde-86de92e06113</webElementGuid>
+      <webElementGuid>4e180799-39a9-4b6d-a86c-ab3031ab00e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +54,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>2506717d-37e9-4dee-a5b4-84ccb7012eb8</webElementGuid>
+      <webElementGuid>8882ccd4-9d9e-4037-b645-4bd4db23423d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +62,7 @@
       <name>data-placeholder</name>
       <type>Main</type>
       <value>placeholder_input</value>
-      <webElementGuid>1b6949fc-d96e-4c28-ba9b-038941c2a520</webElementGuid>
+      <webElementGuid>bc31a7a4-7230-4a00-a15a-d7b6150dc3aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +70,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Insert here</value>
-      <webElementGuid>db203389-9a1d-4f31-ba9d-767cd4060de9</webElementGuid>
+      <webElementGuid>b430d4b4-d50f-4a40-94bd-18571320cc7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pica_input_text&quot;)</value>
-      <webElementGuid>403fe907-fbe9-4233-97db-971939c6d3c6</webElementGuid>
+      <webElementGuid>38bfa15c-61ae-4920-82c3-6950ad032bef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -146,7 +150,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='pica_input_text']</value>
-      <webElementGuid>7c3ef0b9-92b5-49f5-b4ef-c2d1e6263573</webElementGuid>
+      <webElementGuid>4886ea34-4f9b-4ab2-9ab9-309d054c282c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -154,7 +158,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='pica_input_dialog']/div/div/div[2]/div/input</value>
-      <webElementGuid>30528d2b-2257-4a5a-94c8-aa26013d176f</webElementGuid>
+      <webElementGuid>c8632d82-6837-48bb-bf3c-41beac5fb292</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -162,6 +166,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/input</value>
-      <webElementGuid>8d0d844a-2a51-4464-8d0f-27ad89922623</webElementGuid>
+      <webElementGuid>d00298cb-18f4-4a56-b2a4-0e0e7eda7c3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'pica_input_text' and @name = 'pencil' and @type = 'text' and @placeholder = 'Insert here']</value>
+      <webElementGuid>4f0cc59d-1ab9-48c7-a602-67de19a7a7fd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

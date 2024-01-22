@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Download_pica-glyph glyphicons glyphic_888d4e</name>
+   <tag></tag>
+   <elementGuidId>ef59ca7e-40a1-48ef-8ebf-c6c40789df4b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//thead[@id='files_select_header']/tr/th[3]/div[2]/a[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.pica-table-selection-single.files-ui-rename > span.pica-glyph.glyphicons.glyphicons-edit</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>85f88f88-f6d5-4194-ba8c-6dedd86b5b4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pica-glyph glyphicons glyphicons-edit</value>
+      <webElementGuid>854630ec-b3bc-471f-8cfd-2f68bb9a8b45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;files_select_header&quot;)/tr[1]/th[@class=&quot;text-right&quot;]/div[@class=&quot;pica-table-selection-context pica-inline hidden-xs text-right&quot;]/a[@class=&quot;pica-table-selection-single files-ui-rename&quot;]/span[@class=&quot;pica-glyph glyphicons glyphicons-edit&quot;]</value>
+      <webElementGuid>245c99eb-45aa-4256-8362-9e4492cb65e1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//thead[@id='files_select_header']/tr/th[3]/div[2]/a[2]/span</value>
+      <webElementGuid>4b3b8957-cd26-4e31-9bea-e245dc70b3c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a[2]/span</value>
+      <webElementGuid>982e6201-6dd4-4822-b2da-c061e4d1758d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

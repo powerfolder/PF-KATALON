@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>#Object_852049220 > td.pica-icon-column > span.glyphicons.glyphicons-folder-open.pica-glyph</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='pica_link_dialog']/div/div/div[2]/div/div/ul/li[3]/div/div/table/tr/td[3]/a/span</value>
+         <value>//tr[@id='Object_852049220']/td/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,27 +22,143 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>c1f16896-d0d6-42d4-a5da-963bdf4b9ad4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>glyphicon glyphicon-chevron-up</value>
+      <value>glyphicons glyphicons-folder-open pica-glyph</value>
+      <webElementGuid>7507cab4-e738-49c2-94d5-0d2bd036134d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pica_link_dialog&quot;)/div[@class=&quot;pica-dialog-small modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;form-group input-group&quot;]/div[@class=&quot;bootstrap-datetimepicker-widget dropdown-menu bottom&quot;]/ul[@class=&quot;list-unstyled&quot;]/li[@class=&quot;collapse in&quot;]/div[@class=&quot;timepicker&quot;]/div[@class=&quot;timepicker-picker&quot;]/table[@class=&quot;table-condensed&quot;]/tr[1]/td[3]/a[@class=&quot;btn&quot;]/span[@class=&quot;glyphicon glyphicon-chevron-up&quot;]</value>
+      <value>id(&quot;Object_852049220&quot;)/td[@class=&quot;pica-icon-column&quot;]/span[@class=&quot;glyphicons glyphicons-folder-open pica-glyph&quot;]</value>
+      <webElementGuid>aafe0db7-e27b-4e1d-9bea-b4362d76a574</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
+      <value>//tr[@id='Object_852049220']/td/span</value>
+      <webElementGuid>1b52bec7-a9d7-4aa7-a8fb-7fd4b131a9b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[5]/td/span</value>
+      <webElementGuid>9e120c0f-88a9-44c6-964b-b465841f48df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='Object_1921128571']/td/span</value>
+      <webElementGuid>d8290d2b-6602-408a-87ec-069cb5f63c30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[4]/td/span</value>
+      <webElementGuid>9c683300-abf5-44fa-8833-c792ccd635b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='Object_111644790']/td/span</value>
+      <webElementGuid>d770798f-4538-4428-9c4e-1622223b1cdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/span</value>
+      <webElementGuid>200b25e3-3ec7-4e11-84f4-fb36b9a800ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='Object_785481173']/td/span</value>
+      <webElementGuid>b3b39a85-27a7-4d0b-948c-55182aaa490c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='Object_1274735886']/td/span</value>
+      <webElementGuid>7057c773-5806-42f6-af2f-068b2d82a6bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[9]/td/span</value>
+      <webElementGuid>0256aa88-20f3-44fb-964b-24daf1d22fce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='Object_2077809312']/td/span</value>
+      <webElementGuid>afc1891c-3ca6-4963-92be-902d77beb2aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='Object_1381403999']/td/span</value>
+      <webElementGuid>3851eb27-1772-4ff4-8eda-bf5244550098</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//thead[@id='files_select_header']/tr/th[3]/div[2]/a[2]/span</value>
+      <webElementGuid>e994eef4-da7e-472a-bec9-d938567ad083</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a[2]/span</value>
+      <webElementGuid>44a24482-1fff-491c-adb9-b160ee302a3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='Object_219267077']/td/span</value>
+      <webElementGuid>56dce46e-fe09-48d7-8bad-7c0191fb69e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//div[@id='pica_link_dialog']/div/div/div[2]/div/div/ul/li[3]/div/div/table/tr/td[3]/a/span</value>
+      <webElementGuid>27ef25fa-9717-4d25-ac63-47b634a4f880</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,5 +166,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table/tr/td[3]/a/span</value>
+      <webElementGuid>7f15ecd8-d353-4369-85be-8e90a74cc405</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

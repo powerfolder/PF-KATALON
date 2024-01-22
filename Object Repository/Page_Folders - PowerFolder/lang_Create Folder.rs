@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lang_Create Folder</name>
+   <tag></tag>
+   <elementGuidId>15d16959-3d4a-4fc4-a964-bd4b42d30027</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//lang[@name='string_create']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>lang[name=&quot;string_create&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>lang</value>
+      <webElementGuid>129e9b93-68ea-4b62-86ce-b53f87e7dca4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>string_create</value>
+      <webElementGuid>c5d66073-bd74-40af-b7dc-92f18ee38563</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>files-visible-only-root</value>
+      <webElementGuid>c14faba3-ac1b-4084-81d0-ace36a7b1d37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create Folder</value>
+      <webElementGuid>822884cd-c98b-4f8c-835e-dafa56f00510</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pica-files-create-dropdown&quot;)/ul[@class=&quot;pica-arrow-left dropdown-menu&quot;]/li[@class=&quot;files-ui-create-dir&quot;]/a[1]/lang[@class=&quot;files-visible-only-root&quot;]</value>
+      <webElementGuid>ba927862-3879-4d2d-a914-d8b5fdd1cfbf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//lang[@name='string_create']</value>
+      <webElementGuid>2adc524e-e5e9-467b-8bcc-ab3cfc29a3d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pica-files-create-dropdown']/ul/li/a/lang</value>
+      <webElementGuid>0683c419-e5fa-485f-9ae7-7bdb1df4772b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Paste'])[1]/following::lang[1]</value>
+      <webElementGuid>5ab673cb-351f-4a61-ad56-bc0cc4cc5caf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage'])[2]/following::lang[2]</value>
+      <webElementGuid>784ce0dc-dd5e-48a4-b7a3-414d0dd8fb25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Directory'])[1]/preceding::lang[1]</value>
+      <webElementGuid>88f15b2d-ba3b-4477-95de-c9a269e460f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Document'])[1]/preceding::lang[2]</value>
+      <webElementGuid>812d90ed-19fb-41e2-8d8f-98519bd2c4e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Create Folder']/parent::*</value>
+      <webElementGuid>84990180-4ba4-43b3-9036-de99aab5270c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//thead[3]/tr/th/div/ul/li/a/lang</value>
+      <webElementGuid>8450d74a-0061-4c53-99d2-b943e6d385dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//lang[@name = 'string_create' and (text() = 'Create Folder' or . = 'Create Folder')]</value>
+      <webElementGuid>7f1b2830-5f00-4695-9036-70af4a8c66c5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "0941F8B1F510F7D5BD6D589BF8E1D863",
+  "keywordClasses": [
+    {
+      "name": "folder.FolderHelper",
+      "keywordMethods": [
+        {
+          "name": "findFolderRaw",
+          "parameters": [
+            {
+              "name": "fileName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

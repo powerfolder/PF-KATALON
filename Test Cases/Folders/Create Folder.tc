@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d4fb2525-bae1-4c62-b52e-c280a864847b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>372f7b2e-4ae3-408f-a574-26e88f20294c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>RandomStringUtils.randomAlphanumeric(5)</defaultValue>
+      <description></description>
+      <id>372f7b2e-4ae3-408f-a574-26e88f20294c</id>
+      <masked>false</masked>
+      <name>folderName</name>
+   </variable>
 </TestCaseEntity>

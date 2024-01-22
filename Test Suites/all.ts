@@ -101,6 +101,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Folders/Create Folder</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>372f7b2e-4ae3-408f-a574-26e88f20294c</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>b1fb75c7-d35f-4c57-ba58-4b767bc7becf</guid>
@@ -426,6 +432,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Folders/Create Folder</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>372f7b2e-4ae3-408f-a574-26e88f20294c</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>fc531a8c-020c-432e-bd6b-e96518c58ffe</guid>
