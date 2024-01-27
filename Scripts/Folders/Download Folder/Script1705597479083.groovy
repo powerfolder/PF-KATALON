@@ -22,6 +22,11 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import com.kms.katalon.core.testobject.TestObjectProperty as TestObjectProperty
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
+import org.testng.Assert as Assert
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.testng.Assert as Assert
+
 
 WebUI.callTestCase(findTestCase('Folders/Create Folder modifed'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -76,7 +81,14 @@ WebUI.click(createdFolder)
 // WebUI.click(findTestObject('Folders/Page_Folders - PowerFolder/createdFolder'))
 WebUI.click(findTestObject('folder/Page_Folders - PowerFolder/Page_Folders - PowerFolder/lang_Download'))
 
-WebUI.delay(5)
+//'Wait for Some time so that file gets downloaded and Stored in user defined path'
+WebUI.delay(10)
+
+String home = System.getProperty("user.home");
+String downloadPath = home+"/Downloads/";
+
+//'Verifying the file is download in the User defined Path'
+Assert.assertTrue(CustomKeywords.'folder.FolderHelper.isFileDownloaded'(downloadPath, folderName+".zip"), 'Failed to download Expected document')
 
 WebUI.closeBrowser()
 

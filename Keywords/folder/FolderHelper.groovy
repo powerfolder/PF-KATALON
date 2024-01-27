@@ -18,7 +18,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
-import internal.GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.By as By
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
@@ -26,11 +25,33 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 
 public class FolderHelper {
-	
+
 
 	@Keyword
 	def WebElement findFolderRaw(String fileName) {
 		WebDriver driver = DriverFactory.getWebDriver()
 		return driver.findElement(By.xpath("//table[@id='files_files_table']/tbody/tr/td[2]/a[contains(text(),'$fileName')]/../.."))
 	}
+
+	@Keyword
+	def boolean isFileDownloaded(String downloadPath, String fileName) {
+	long timeout = 5 * 60 * 1000
+	long start = new Date().getTime()
+	boolean downloaded = false
+	File file = new File(downloadPath, fileName)
+	while (!downloaded) {
+		println("Checking file exists ${file.absolutePath}")
+		downloaded = file.exists()
+		if (downloaded) {
+			file.delete()
+		} else {
+			long now = new Date().getTime()
+			if (now - start > timeout) {
+				break
+			}
+			Thread.sleep(3000)
+		}
+	}
+	return downloaded
+}
 }
