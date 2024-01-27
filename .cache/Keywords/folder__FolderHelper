@@ -1,11 +1,11 @@
 {
-  "keywordFileContentHash": "862F6B89447D63DA390B71FB5BFE6E01",
+  "keywordFileContentHash": "9C44CD55D9765BA85FDC486C44EA7082",
   "keywordClasses": [
     {
       "name": "folder.FolderHelper",
       "keywordMethods": [
         {
-          "name": "findFolderRaw",
+          "name": "findFolder",
           "parameters": [
             {
               "name": "fileName",
@@ -20,7 +20,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "isFileDownloaded",
@@ -51,10 +52,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

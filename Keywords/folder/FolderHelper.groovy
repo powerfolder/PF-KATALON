@@ -1,6 +1,7 @@
 package folder
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -23,35 +24,38 @@ import org.openqa.selenium.By as By
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.support.ui.ExpectedConditions
+import org.openqa.selenium.support.ui.WebDriverWait
+
 
 public class FolderHelper {
 
 
 	@Keyword
-	def WebElement findFolderRaw(String fileName) {
-		WebDriver driver = DriverFactory.getWebDriver()
-		return driver.findElement(By.xpath("//table[@id='files_files_table']/tbody/tr/td[2]/a[contains(text(),'$fileName')]/../.."))
+	def WebElement findFolder(String fileName) {
+	    WebDriver driver = DriverFactory.getWebDriver()
+		return driver.findElement(By.xpath("//table[@id='files_files_table']/tbody/tr[contains(@data-search-keys,'$fileName')]/td/span"))
 	}
 
 	@Keyword
 	def boolean isFileDownloaded(String downloadPath, String fileName) {
-	long timeout = 5 * 60 * 1000
-	long start = new Date().getTime()
-	boolean downloaded = false
-	File file = new File(downloadPath, fileName)
-	while (!downloaded) {
-		println("Checking file exists ${file.absolutePath}")
-		downloaded = file.exists()
-		if (downloaded) {
-			file.delete()
-		} else {
-			long now = new Date().getTime()
-			if (now - start > timeout) {
-				break
+		long timeout = 5 * 60 * 1000
+		long start = new Date().getTime()
+		boolean downloaded = false
+		File file = new File(downloadPath, fileName)
+		while (!downloaded) {
+			println("Checking file exists ${file.absolutePath}")
+			downloaded = file.exists()
+			if (downloaded) {
+				file.delete()
+			} else {
+				long now = new Date().getTime()
+				if (now - start > timeout) {
+					break
+				}
+				Thread.sleep(3000)
 			}
-			Thread.sleep(3000)
 		}
+		return downloaded
 	}
-	return downloaded
-}
 }

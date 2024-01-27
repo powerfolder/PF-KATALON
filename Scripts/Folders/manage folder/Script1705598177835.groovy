@@ -28,54 +28,15 @@ import java.awt.datatransfer.DataFlavor as DataFlavor
 
 WebUI.callTestCase(findTestCase('Folders/Create Folder modifed'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebElement table = DriverFactory.getWebDriver().findElement(By.xpath('//table[@id=\'files_files_table\']'))
 
-List<WebElement> rows = table.findElements(By.tagName('tr'))
-
-// Initialize a variable to store the row number
-int rowNum = -1
 
 String folderName = GlobalVariable.folderN
 
-// GlobalVariable.folderN = folderName
-println("Folder name : $folderName")
+WebElement btn = CustomKeywords.'folder.FolderHelper.findFolder'(folderName)
 
-// Iterate through each row to find the desired text
-for (int i = 0; i < rows.size(); i++) {
-    WebElement row = rows.get(i)
 
-    String cellValue = table.findElement(By.xpath(('//table/tbody/tr[' + (i + 1).toString()) + ']/td[2]')).getText()
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(btn))
 
-    println("Cell value: $cellValue")
-
-    // Check each column in the row for the desired text
-    if (cellValue.contains(folderName)) {
-        rowNum = (i + 1 // Adding 1 since row numbers are usually 1-based
-        )
-
-        break
-    }
-}
-
-GlobalVariable.rowNum = rowNum.toString()
-
-// Assuming yourTestObject is the existing Test Object that you want to modify
-TestObject createdFolder = findTestObject('Folders/Page_Folders - PowerFolder/createdFolder')
-
-// Specify the new selector properties
-String newLocatorStrategy = 'xpath'
-
-String newLocatorValue = "//table/tbody/tr[$GlobalVariable.rowNum]/td[1]/span"
-
-// Create a new TestObject with the updated properties
-createdFolder = new TestObject().addProperty(newLocatorStrategy, ConditionType.EQUALS, newLocatorValue)
-
-println("LOCATOR var: $newLocatorValue")
-
-// Now, you can use the modified Test Object in your test case
-WebUI.click(createdFolder)
-
-// WebUI.click(findTestObject('Folders/Page_Folders - PowerFolder/createdFolder'))
 WebUI.click(findTestObject('folder/Page_Folders - PowerFolder/Page_Folders - PowerFolder/lang_Manage'))
 
 WebUI.click(findTestObject('folder/Page_Folders - PowerFolder/Page_Folders - PowerFolder/copy_icon'))

@@ -25,52 +25,20 @@ import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
 
 WebUI.callTestCase(findTestCase('Folders/Create Folder modifed'), [:], FailureHandling.STOP_ON_FAILURE)
 
-// WebUI.setText(findTestObject('Object Repository/Page_Folders - PowerFolder/input_search_input'), GlobalVariable.folderN)
-WebElement table = DriverFactory.getWebDriver().findElement(By.xpath('//table[@id=\'files_files_table\']'))
-
-List<WebElement> rows = table.findElements(By.tagName('tr'))
-
 // Initialize a variable to store the row number
-int rowNum = -1
 
 String folderName = GlobalVariable.folderN
 
 // GlobalVariable.folderN = folderName
 println("Folder name : $folderName")
 
-// Iterate through each row to find the desired text
-for (int i = 0; i < rows.size(); i++) {
-    WebElement row = rows.get(i)
 
-    String cellValue = table.findElement(By.xpath(('//table/tbody/tr[' + (i + 1).toString()) + ']/td[2]')).getText()
+WebElement btn = CustomKeywords.'folder.FolderHelper.findFolder'(folderName)
 
-    println("Cell value: $cellValue")
 
-    // Check each column in the row for the desired text
-    if (cellValue.contains(folderName)) {
-        rowNum = (i + 1 // Adding 1 since row numbers are usually 1-based
-        )
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(btn))
 
-        break
-    }
-}
 
-GlobalVariable.rowNum = rowNum.toString()
-
-// Specify the new selector properties
-String newLocatorStrategy = 'xpath'
-
-String newLocatorValue = "//table/tbody/tr[$GlobalVariable.rowNum]/td[1]/span"
-
-// Create a new TestObject with the updated properties
-TestObject createdFolder = new TestObject().addProperty(newLocatorStrategy, ConditionType.EQUALS, newLocatorValue)
-
-println("LOCATOR var: $newLocatorValue")
-
-// Now, you can use the modified Test Object in your test case
-WebUI.click(createdFolder)
-
-// WebUI.click(findTestObject('Folders/Page_Folders - PowerFolder/createdFolder'))
 WebUI.click(findTestObject('Object Repository/Page_Folders - PowerFolder/lang_Rename'))
 
 String folderNewName = RandomStringUtils.randomAlphanumeric(5)
