@@ -33,7 +33,7 @@ public class FolderHelper {
 
 	@Keyword
 	def WebElement findFolder(String fileName) {
-	    WebDriver driver = DriverFactory.getWebDriver()
+		WebDriver driver = DriverFactory.getWebDriver()
 		return driver.findElement(By.xpath("//table[@id='files_files_table']/tbody/tr[contains(@data-search-keys,'$fileName')]/td/span"))
 	}
 

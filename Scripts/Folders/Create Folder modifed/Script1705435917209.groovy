@@ -32,8 +32,6 @@ println('Folder Name: ' + folderN)
 
 WebUI.callTestCase(findTestCase('Folders/Should Go to Folderstable'), [:], FailureHandling.OPTIONAL)
 
-
-
 WebUI.click(findTestObject('Object Repository/Folders/Page_Folders - PowerFolder/span_Paste_pica-glyph glyphicons glyphicons_ca92f0'))
 
 WebUI.click(findTestObject('Object Repository/Folders/Page_Folders - PowerFolder/lang_Create Folder'))
@@ -42,7 +40,6 @@ WebUI.setText(findTestObject('Folders/Page_Folders - PowerFolder/input_Create a 
 
 WebUI.sendKeys(findTestObject('Object Repository/Folders/Page_Folders - PowerFolder/input_Create a new Folder_pencil'), 
     Keys.chord(Keys.ENTER))
-
 
 WebElement folderElement = CustomKeywords.'folder.FolderHelper.findFolder'(folderN)
 

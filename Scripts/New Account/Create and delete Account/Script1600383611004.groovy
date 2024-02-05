@@ -29,9 +29,9 @@ import org.openqa.selenium.Keys as Keys
 //
 //String name = org.apache.commons.lang.RandomStringUtils.random(9, true, true)
 //
-//WebUI.setText(findTestObject('Object Repository/Page_Accounts - PowerFolder/input_Notizen_pica_account_username'), name+'_user@powerfolder.com')
+//WebUI.setText(findTestObject('Object Repository/Page_Accounts - PowerFolder/Email_place'), name+'_user@powerfolder.com')
 //
-//WebUI.setEncryptedText(findTestObject('Object Repository/Page_Accounts - PowerFolder/input_Notizen_pica_account_password'), 
+//WebUI.setEncryptedText(findTestObject('Object Repository/Page_Accounts - PowerFolder/password_case'), 
 //    'PpFy9OM6JMVjJ8cBivBeSg==')
 //
 //WebUI.setText(findTestObject('Object Repository/Page_Accounts - PowerFolder/input_Notizen_pica_account_first_name'), 'Happy')
@@ -82,7 +82,7 @@ import org.openqa.selenium.Keys as Keys
 //
 //WebUI.click(findTestObject('Object Repository/Page_Accounts - PowerFolder/lang_Speichern'))
 //
-//WebUI.click(findTestObject('Page_Accounts - PowerFolder/span_admin_glyphicons glyphicons-user pica-glyph'))
+//WebUI.click(findTestObject('Page_Accounts - PowerFolder/Add_Buttom'))
 //
 //WebUI.click(findTestObject('Object Repository/Page_Accounts - PowerFolder/lang_Lschen'))
 //

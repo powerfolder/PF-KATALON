@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Add_buttom</name>
+   <tag></tag>
+   <elementGuidId>e55bf67f-9490-48e3-a9be-6cbc3dc40057</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.pica-glyph.glyphicons.glyphicons-plus-sign</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//thead[2]/tr/th/div/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3418ddee-224c-4e35-a27e-1f9bcc30a262</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pica-glyph glyphicons glyphicons-plus-sign</value>
+      <webElementGuid>993d8ea9-a10d-4150-81e8-cbbb2bf9f55f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;accounts_table&quot;)/thead[2]/tr[1]/th[@class=&quot;pica-icon-column text-center&quot;]/div[@class=&quot;pica-inline dropdown open&quot;]/a[@class=&quot;dropdown-toggle&quot;]/span[@class=&quot;pica-glyph glyphicons glyphicons-plus-sign&quot;]</value>
+      <webElementGuid>441bc208-f94e-4108-86f5-951ab2e99c3c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='accounts_table']/thead[2]/tr/th/div/a/span</value>
+      <webElementGuid>85212401-7eef-42db-acdd-5c9ffd67dd0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//thead[2]/tr/th/div/a/span</value>
+      <webElementGuid>f4b62041-c6c4-456a-8a61-18dd5a8abd8b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

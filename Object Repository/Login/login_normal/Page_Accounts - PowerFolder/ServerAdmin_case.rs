@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ServerAdmin_case</name>
+   <tag></tag>
+   <elementGuidId>82f7041a-14a2-412d-b466-34a51d244d36</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.pica-nav-tab-extra > div.pica-button-checkbox.pull-left > button.btn.btn-default > i.state-icon.glyphicons.glyphicons-unchecked</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div/div/div/div/button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>5c83661b-e079-48b4-9d99-45c959f2e6ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>state-icon glyphicons glyphicons-unchecked</value>
+      <webElementGuid>26ae08c9-05e2-495d-83a2-11b734c21a67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pica_account_dialog&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-8&quot;]/div[@class=&quot;pica-nav-tab-extra&quot;]/div[@class=&quot;pica-button-checkbox pull-left&quot;]/button[@class=&quot;btn btn-default&quot;]/i[@class=&quot;state-icon glyphicons glyphicons-unchecked&quot;]</value>
+      <webElementGuid>80a94ff0-8fb5-46a8-bcc4-625b8e399060</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pica_account_dialog']/div/div/div[3]/div/div/div/div/button/i</value>
+      <webElementGuid>edf0c138-61c6-4a5f-8984-d6bc9efadf10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/button/i</value>
+      <webElementGuid>2a3561fa-ce64-4d24-b3c4-2a8c3cd6fab2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

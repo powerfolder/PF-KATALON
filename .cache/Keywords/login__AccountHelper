@@ -1,0 +1,29 @@
+{
+  "keywordFileContentHash": "DB999B96041C585C11CE5C94CD521133",
+  "keywordClasses": [
+    {
+      "name": "login.AccountHelper",
+      "keywordMethods": [
+        {
+          "name": "findAccount",
+          "parameters": [
+            {
+              "name": "adminOrganization",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

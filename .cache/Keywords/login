@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "7506D9C21CA7CA670488A40ABE4C4DCD",
+  "keywordClasses": [
+    {
+      "name": "AccountHelper",
+      "keywordMethods": [
+        {
+          "name": "findAccount",
+          "parameters": [
+            {
+              "name": "adminOrganization",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -29,4 +29,14 @@
       <initValue>''</initValue>
       <name>rowNum</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>UserAccount</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>Password1</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -35,9 +35,7 @@ WebUI.sendKeys(findTestObject('Object Repository/Folders/Page_Folders - PowerFol
 
 WebElement folderElement = CustomKeywords.'folder.FolderHelper.findFolder'(folderName)
 
-assert folderElement != null ;
+assert folderElement != null
 
 WebUI.closeBrowser()
-
-
 

@@ -31,8 +31,7 @@ isPresent = WebUI.waitForElementVisible(findTestObject('Object Repository/Login/
 
 assert isPresent
 
-WebUI.setText(findTestObject('Object Repository/Login/Page_Login - PowerFolder/input_Recover password_Password'), 
-    GlobalVariable.Password)
+WebUI.setText(findTestObject('Object Repository/Login/Page_Login - PowerFolder/input_Recover password_Password'), GlobalVariable.Password)
 
 WebUI.click(findTestObject('Object Repository/Login/Page_Login - PowerFolder/input_register new account_Login'))
 

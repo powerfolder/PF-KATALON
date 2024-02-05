@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "209496337D51AD8D0AA8D0A1DA036C02",
+  "keywordClasses": [
+    {
+      "name": "login.AccountFinder",
+      "keywordMethods": [
+        {
+          "name": "findAccount",
+          "parameters": [
+            {
+              "name": "adminOrganization",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
