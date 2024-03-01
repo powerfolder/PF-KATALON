@@ -1,3 +1,4 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -15,29 +16,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import org.openqa.selenium.By as By
-import org.openqa.selenium.WebElement as WebElement
-import com.kms.katalon.core.testobject.ConditionType as ConditionType
-import com.kms.katalon.core.testobject.TestObjectProperty as TestObjectProperty
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
 
-WebUI.callTestCase(findTestCase('Folders/Create Folder modifed'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login/Admin login modifed'), [:], FailureHandling.STOP_ON_FAILURE)
 
-String folderName = GlobalVariable.folderN
+WebUI.click(findTestObject('Object Repository/servers/Page_Servers - PowerFolder/lang_Servers'))
 
-println("Folder name : $folderName")
+WebUI.click(findTestObject('servers/Page_Servers - PowerFolder/td_tspfdd05'))
 
-WebElement btn = CustomKeywords.'folder.FolderHelper.findFolder'(folderName)
+WebUI.verifyElementText(findTestObject('Object Repository/servers/Page_Servers - PowerFolder/span_tspfdd05'), 'tspfdd05')
 
-WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(btn))
+WebUI.click(findTestObject('Object Repository/servers/Page_Servers - PowerFolder/span_Restart_pica-table-selection-multi pic_96fda4'))
 
-WebUI.click(findTestObject('Object Repository/Page_Folders - PowerFolder/lang_Delete'))
+WebUI.click(findTestObject('Object Repository/servers/Page_Servers - PowerFolder/button_Yes'))
 
-WebUI.click(findTestObject('Object Repository/Page_Folders - PowerFolder/lang_Yes'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Folders - PowerFolder/span_Folder deleted'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('servers/Page_Servers - PowerFolder/td_tspfdd05'), 1)
 
 WebUI.closeBrowser()
 

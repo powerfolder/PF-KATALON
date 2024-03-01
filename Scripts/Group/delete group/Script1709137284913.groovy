@@ -9,38 +9,28 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.By as By
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import org.openqa.selenium.WebDriver as WebDriver
-import org.openqa.selenium.WebElement as WebElement
 import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
+import org.openqa.selenium.WebElement as WebElement
 
-// Generate a random string of length 5
-String folderN = RandomStringUtils.randomAlphanumeric(5)
 
-// Set the global variable with the random string
-GlobalVariable.folderN = folderN
+WebUI.callTestCase(findTestCase('Group/Create group'), [:], FailureHandling.STOP_ON_FAILURE)
 
-// Print the random string to the console (optional)
-println('Folder Name: ' + folderN)
+WebElement btn = CustomKeywords.'group.GroupFinder.findGroup'(GlobalVariable.GroupName)
 
-WebUI.callTestCase(findTestCase('Folders/Should Go to Folderstable'), [:], FailureHandling.OPTIONAL)
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(btn))
 
-WebUI.click(findTestObject('Object Repository/Folders/Page_Folders - PowerFolder/span_Paste_pica-glyph glyphicons glyphicons_ca92f0'))
+WebUI.click(findTestObject('Group_Objects/Page_Groups - PowerFolder/Delete'))
 
-WebUI.click(findTestObject('Object Repository/Folders/Page_Folders - PowerFolder/lang_Create Folder'))
+WebUI.click(findTestObject('Group_Objects/Page_Groups - PowerFolder/lang_Yes'))
 
-WebUI.setText(findTestObject('Folders/Page_Folders - PowerFolder/input_Create a new Folder_pencil'), GlobalVariable.folderN)
+WebUI.verifyElementVisible(findTestObject('Group_Objects/Page_Groups - PowerFolder/div_Group deleted'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Object Repository/Folders/Page_Folders - PowerFolder/input_Create a new Folder_pencil'), 
-    Keys.chord(Keys.ENTER))
+WebUI.closeBrowser()
 
-WebElement folderElement = CustomKeywords.'folder.FolderHelper.findFolder'(GlobalVariable.folderN)
-
-assert folderElement != null

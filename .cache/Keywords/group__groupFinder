@@ -1,21 +1,21 @@
 {
-  "keywordFileContentHash": "4432D0323E6DC73C471CBFB7FA1FD09D",
+  "keywordFileContentHash": "1114450CCECA62308D9C45A6C591E16B",
   "keywordClasses": [
     {
-      "name": "login.AccountFinder",
+      "name": "group.GroupFinder",
       "keywordMethods": [
         {
-          "name": "findAccount",
+          "name": "findGroup",
           "parameters": [
             {
-              "name": "adminOrganization",
+              "name": "groupName",
               "initialExpression": "",
               "type": {
-                "fullClassName": "java.lang.Object",
-                "unresolvedClassName": "java.lang.Object",
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
                 "isArray": false,
                 "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": true,
+                "hasImmutableClassName": false,
                 "genericsTypes": [],
                 "errorOnParsing": false
               }
