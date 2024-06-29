@@ -17,16 +17,41 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
+import com.kms.katalon.core.annotation.Keyword as Keyword
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import java.util.List as List
 
-WebUI.callTestCase(findTestCase('Storages/PreTest/CreateStorage'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login/Pretest - Admin Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+String storageName = 'Storage_' + RandomStringUtils.randomNumeric(4)
 
-WebUI.click(findTestObject('Object Repository/Storage/Page_Storage - PowerFolder/a_Delete'))
+GlobalVariable.StorageName = storageName
 
-WebUI.click(findTestObject('Object Repository/Storage/Page_Storage - PowerFolder/button_Yes'))
+WebUI.click(findTestObject('Object Repository/Storage/Page_Storage - PowerFolder/lang_Storage'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Storage/Page_Storage - PowerFolder/span_Storage deleted'))
+WebUI.click(findTestObject('Storage/Page_Storage - PowerFolder/a_Delete_pica-glyph-box'))
 
-WebUI.closeBrowser()
+WebUI.setText(findTestObject('Object Repository/Storage/Page_Storage - PowerFolder/input_Create a new Storage_pencil'),
+	GlobalVariable.StorageName)
+
+WebUI.click(findTestObject('Object Repository/Storage/Page_Storage - PowerFolder/button_Ok'))
+
+def btn = findStorage(storageName)
+
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(btn))
+
+assert storageName != null
+
+WebUI.delay(2)
+
+
+@Keyword
+WebElement findStorage(String storageName) {
+	WebDriver driver = DriverFactory.getWebDriver()
+
+	return driver.findElement(By.xpath(('//*[contains(@data-search-keys, \'' + storageName) + '\')]/td[1]/span'))
+}
 

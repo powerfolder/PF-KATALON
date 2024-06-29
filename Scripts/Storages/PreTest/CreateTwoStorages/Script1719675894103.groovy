@@ -17,16 +17,36 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
+import com.kms.katalon.core.annotation.Keyword as Keyword
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import java.util.List as List
 
-WebUI.callTestCase(findTestCase('Storages/PreTest/CreateStorage'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login/Pretest - Admin Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+String storageName1 = 'Storage_1_' + RandomStringUtils.randomNumeric(4)
 
-WebUI.click(findTestObject('Object Repository/Storage/Page_Storage - PowerFolder/a_Delete'))
+String storageName2 = 'Storage_2_' + RandomStringUtils.randomNumeric(4)
 
-WebUI.click(findTestObject('Object Repository/Storage/Page_Storage - PowerFolder/button_Yes'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Storage/Page_Storage - PowerFolder/span_Storage deleted'))
+WebUI.click(findTestObject('Object Repository/Storage/Page_Storage - PowerFolder/lang_Storage'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Storage/Page_Storage - PowerFolder/a_Delete_pica-glyph-box'))
+
+WebUI.setText(findTestObject('Object Repository/Storage/Page_Storage - PowerFolder/input_Create a new Storage_pencil'),
+	storageName1)
+
+WebUI.click(findTestObject('Object Repository/Storage/Page_Storage - PowerFolder/button_Ok'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Storage/Page_Storage - PowerFolder/a_Delete_pica-glyph-box'))
+
+WebUI.setText(findTestObject('Object Repository/Storage/Page_Storage - PowerFolder/input_Create a new Storage_pencil'),
+	storageName2)
+
+WebUI.click(findTestObject('Object Repository/Storage/Page_Storage - PowerFolder/button_Ok'))
+
 
