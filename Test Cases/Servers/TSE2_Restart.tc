@@ -4,5 +4,6 @@
    <name>TSE2_Restart</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>49d232ef-5285-459f-883a-f386a9e628b1</testCaseGuid>
 </TestCaseEntity>

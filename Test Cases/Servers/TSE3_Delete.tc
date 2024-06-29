@@ -4,5 +4,6 @@
    <name>TSE3_Delete</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>8b098f31-67f4-4a1b-adbd-de679f759349</testCaseGuid>
 </TestCaseEntity>
