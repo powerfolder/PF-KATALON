@@ -296,11 +296,17 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>ecc7762f-37da-48f1-9b0e-d702426b25e1</guid>
+      <guid>ff2b4307-b6a8-4288-8151-a37660d6b07d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Share/Share Using enter/TS4_Share folder with Multiple outlook emails</testCaseId>
+      <testCaseId>Test Cases/Share/Share Using plus button/TS14_Share Folder With one email adress</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0662f577-6ab2-4c5a-9735-0022e9b9e31e</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>bbae59de-b1bf-474a-8da5-3076bdf1666d</guid>
@@ -352,17 +358,11 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ff2b4307-b6a8-4288-8151-a37660d6b07d</guid>
+      <guid>ecc7762f-37da-48f1-9b0e-d702426b25e1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Share/Share Using plus button/TS14_Share Folder With one email adress</testCaseId>
+      <testCaseId>Test Cases/Share/Share Using enter/TS4_Share folder with Multiple outlook emails</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0662f577-6ab2-4c5a-9735-0022e9b9e31e</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>fc71319d-1da1-4610-adc6-7dbc8c4ea693</guid>

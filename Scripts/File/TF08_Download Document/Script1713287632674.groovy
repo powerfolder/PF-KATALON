@@ -59,6 +59,8 @@ WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(btn));
 
 assert DocName != null;
 
+WebUI.delay(2);
+
 WebUI.verifyElementClickable(findTestObject('file_objects/document/Download/Page_Folders - PowerFolder/span_download'));
 
 WebUI.click(findTestObject('file_objects/document/Download/Page_Folders - PowerFolder/span_download'));
