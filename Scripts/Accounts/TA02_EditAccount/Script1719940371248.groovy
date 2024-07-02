@@ -33,6 +33,8 @@ WebUI.delay(4)
 WebUI.setText(findTestObject('Accounts/inputAccountSearch'), firstName)
 WebUI.sendKeys(findTestObject('Accounts/inputAccountSearch'), Keys.chord(Keys.ENTER))
 
+WebUI.delay(2)
+
 WebDriver driver = DriverFactory.getWebDriver()
 
 try {
