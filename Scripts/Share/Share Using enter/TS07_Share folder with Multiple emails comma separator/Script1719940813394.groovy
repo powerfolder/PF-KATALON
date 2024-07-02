@@ -41,6 +41,8 @@ WebUI.setText(findTestObject('/Share/Page_Folders - PowerFolder/input_Create a n
 WebUI.sendKeys(findTestObject('Share/Page_Folders - PowerFolder/input_Create a new Folder_pencil'), Keys.chord(
         Keys.ENTER))
 
+WebUI.delay(3)
+
 WebElement btn = findShareButton(folderName)
 
 WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(btn))
@@ -53,6 +55,8 @@ WebUI.setText(findTestObject('Share/Page_Folders - PowerFolder/inputEmail_Share'
 
 WebUI.sendKeys(findTestObject('Share/Page_Folders - PowerFolder/inputEmail_Share'), 
     Keys.chord(Keys.ENTER))
+
+WebUI.delay(3)
 
 assert membersCount+3 == getMembersCount()
 

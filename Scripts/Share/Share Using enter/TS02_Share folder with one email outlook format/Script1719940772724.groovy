@@ -44,7 +44,7 @@ WebUI.setText(findTestObject('Object Repository/Share/Page_Folders - PowerFolder
 WebUI.sendKeys(findTestObject('Object Repository/Share/Page_Folders - PowerFolder/inputEmail_Share'), Keys.chord(Keys.ENTER))
 
 // Log to see what email name is retrieved
-WebUI.delay(2) // Wait for the element to be updated if needed
+WebUI.delay(3) // Wait for the element to be updated if needed
 String useremailName = WebUI.getText(findTestObject('Object Repository/Share/Page_Folders - PowerFolder/td_usermailcom'))
 println("User email name retrieved: " + useremailName)
 

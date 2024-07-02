@@ -38,6 +38,8 @@ WebUI.setText(findTestObject('Object Repository/Share/Page_Folders - PowerFolder
 WebUI.sendKeys(findTestObject('Object Repository/Share/Page_Folders - PowerFolder/input_Create a new Folder_pencil'), Keys.chord(
         Keys.ENTER))
 
+WebUI.delay(5)
+
 WebElement btn =findShareButton(folderName)
 
 WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(btn))

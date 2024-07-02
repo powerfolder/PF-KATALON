@@ -52,6 +52,7 @@ WebUI.setText(findTestObject('Object Repository/Share/Page_Folders - PowerFolder
 WebUI.sendKeys(findTestObject('Object Repository/Share/Page_Folders - PowerFolder/inputEmail_Share'),
 	Keys.chord(Keys.ENTER))
 
+
 assert membersCount+3 == getMembersCount()
 
 WebUI.closeBrowser()

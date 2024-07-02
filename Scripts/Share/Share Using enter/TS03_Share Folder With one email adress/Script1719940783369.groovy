@@ -45,6 +45,7 @@ WebUI.setText(findTestObject('Object Repository/Share/Page_Folders - PowerFolder
 WebUI.sendKeys(findTestObject('Object Repository/Share/Page_Folders - PowerFolder/inputEmail_Share'), 
     Keys.chord(Keys.ENTER))
 
+WebUI.delay(5)
 
 
 WebUI.verifyElementText(findTestObject('Object Repository/Share/Page_Folders - PowerFolder/td_usermailcom'), mail)
