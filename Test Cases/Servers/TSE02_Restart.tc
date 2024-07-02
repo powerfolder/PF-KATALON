@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TF18_Restore old version</name>
+   <name>TSE02_Restart</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>d34d0bfd-8c6b-4041-90f7-b38efc4ce637</testCaseGuid>
+   <testCaseGuid>49d232ef-5285-459f-883a-f386a9e628b1</testCaseGuid>
 </TestCaseEntity>

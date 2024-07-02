@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TF18_Restore old version</name>
+   <name>TA04_should not see invite input on sub folder</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>d34d0bfd-8c6b-4041-90f7-b38efc4ce637</testCaseGuid>
+   <testCaseGuid>7ef25263-f0b7-4abd-adc4-10243fb1135f</testCaseGuid>
 </TestCaseEntity>

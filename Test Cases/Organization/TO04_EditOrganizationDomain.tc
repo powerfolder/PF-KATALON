@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TF18_Restore old version</name>
+   <name>TO04_EditOrganizationDomain</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>d34d0bfd-8c6b-4041-90f7-b38efc4ce637</testCaseGuid>
+   <testCaseGuid>def22d0a-7e19-400c-9f05-df2401026ebc</testCaseGuid>
 </TestCaseEntity>
